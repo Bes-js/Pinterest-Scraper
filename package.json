@@ -1,0 +1,47 @@
+{
+  "name": "pinterest-scraper",
+  "version": "1.0.0",
+  "description": "Web Scraper Application for Pinterest, Made Using TypeScript-Based Selenium Web Driver, Allows You to Extract a Specified or Unlimited Amount of Data via the Pinterest URL You Specify.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc --outDir ./dist",
+    "build:start": "npm run build && node ./dist/src/index.js"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://www.paytr.com/link/2qh0pLB?lang=en"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bes-js/Pinterest-Scraper"
+  },
+  "keywords": [
+    "pinterest",
+    "pin",
+    "scraper",
+    "selenium",
+    "typescript",
+    "nodejs",
+    "javascript",
+    "web-scraping",
+    "pinterest-scraper",
+    "selenium-webdriver",
+    "selenium-scraper"
+  ],
+  "author": {
+    "name": "Bes-js",
+    "url": "https://github.com/Bes-js"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.5",
+    "selenium-webdriver": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.1.22",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
