@@ -34,7 +34,7 @@ export default class Pinterest {
             .setChromeOptions(
                 new Chrome.Options()
                     .windowSize({ width: 1920, height: 1080 })
-                    //.addArguments('--headless')
+                    .addArguments('--headless')
                     .addArguments('disable-gpu', 'log-level=3')
             )
             .build();
